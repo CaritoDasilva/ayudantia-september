@@ -1,0 +1,32 @@
+@import 'antd/dist/antd.css';
+.App {
+  text-align: center;
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    form {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+  .list-container {
+    display: flex;
+    flex-direction: row;
+
+
+    .card-container {
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+      margin: 5%;
+      padding: 9px;
+    }
+    .finished {
+      background-color: #80808038;
+    }
+  }
+}
